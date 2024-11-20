@@ -3,8 +3,8 @@
 
 Login: Users can log in with the following credentials:
 
- > Username: rahul
- > Password: rahul@2021
+ * Username: rahul
+ * Password: rahul@2021
 
 * After successful login, they are redirected to the Home Route. Invalid credentials trigger an error message.
 
