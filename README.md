@@ -1,40 +1,93 @@
-**Application Features Overview**
+🛒 eCommerce Application – NxtPrime Clone
+A modern eCommerce web application with user authentication, protected routes, and complete cart & product management.
 
- * Username: rahul
- * Password: rahul@2021
+🚀 Features
+🔐 User Authentication
+Login credentials:
 
-This eCommerce application implements user authentication, protected routes, and various product management features.
+Username: rahul
 
-   * Login: Users can log in with the following credentials:
+Password: rahul@2021
 
-   * After successful login, they are redirected to the Home Route. Invalid credentials trigger an error message.
+Authenticated users are redirected to the Home page.
 
-   * Protected Routes: Unaunthenticated users are redirected to the Login Route when trying to access protected routes like Home, Products, or Cart.
+Invalid credentials display an appropriate error message.
 
-   * Product Listing: Products are fetched using the productsApiUrl with filters like title, category, and rating. A loader is displayed while fetching data. Users can search, filter by category or rating, and clear filters to reset the view.
+🔒 Protected Routes
+Routes like Home, Products, and Cart are protected.
 
-   * Product Item Details: Users can view detailed information of a product, including its quantity, and can update the quantity using plus and minus icons. HTTP requests are made to the productDetailsApiUrl to fetch product details.
+Unauthenticated users are redirected to the Login page when attempting to access protected pages.
 
-   * Cart Management: Authenticated users can add products to the cart, update quantities, remove items, and clear all cart items. The total amount and item count are displayed on the Cart Route, and the cart is managed using CartContext.
+🛍️ Product Management
+Products are fetched from productsApiUrl.
 
-Installation 
+Users can:
 
-Clone the repository:
-   git clone [https://github.com/your-username/ecommerce-app.git](https://github.com/svineethk/NxtPrimeClone.git)
+Search by product name
 
-Navigate to the project directory:
-   cd ecommerce-app
+Filter by category or rating
 
-Install dependencies:
-  If you're using npm:
-   npm install
-  Or, if you're using yarn:
-   yarn install
+Clear filters to reset the view
 
-Start the development server:
-  If you're using npm:
-   npm start
-  Or, if you're using yarn:
-   yarn start
+A loading spinner appears while fetching data.
 
-**This will start the application in development mode, and you can view it by navigating to http://localhost:3000.**
+📦 Product Details Page
+Displays full product details fetched from productDetailsApiUrl.
+
+Users can:
+
+View product quantity
+
+Update quantity using "+" and "–" icons
+
+🛒 Cart Management
+Add products to the cart (authenticated users only)
+
+Update item quantities
+
+Remove individual items or clear the entire cart
+
+View:
+
+Total item count
+
+Total price
+
+Cart state is managed using React Context (CartContext)
+
+🛠️ Installation & Setup
+📥 Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/svineethk/NxtPrimeClone.git
+📦 Install Dependencies
+Using npm:
+
+bash
+Copy
+Edit
+npm install
+Or using yarn:
+
+bash
+Copy
+Edit
+yarn install
+🚴 Start the Development Server
+Using npm:
+
+bash
+Copy
+Edit
+npm start
+Or using yarn:
+
+bash
+Copy
+Edit
+yarn start
+🌐 Access the App
+Once the server starts, open your browser and go to:
+
+http://localhost:3000
