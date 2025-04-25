@@ -1,6 +1,6 @@
-# 🛒 eCommerce Application – NxtPrime Clone
+# 🛒 NxtPrime Clone – A Modern eCommerce Web App
 
-A modern eCommerce web application with user authentication, protected routes, and complete cart & product management.
+A fully functional eCommerce application built with React, featuring user authentication, protected routes, product filtering, and full cart management.
 
 ---
 
@@ -42,14 +42,52 @@ A modern eCommerce web application with user authentication, protected routes, a
 
 ---
 
+## 🧰 Tech Stack
+
+- React
+- React Router
+- Context API
+- Express JS
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+---
+
 ## 🛠️ Installation & Setup
 
 ### 📥 Clone the Repository
 ```bash
 git clone https://github.com/svineethk/NxtPrimeClone.git
+```
+
+📦 Installation
+
+Using npm:
+```bash
+npm install
+```
+
+Or using yarn:
+```bash
+yarn install
+```
 
 
-### 🌐 Access the App
+🚀 Running the App
+
+Using npm:
+```bash
+npm start
+```
+
+Or using yarn:
+```bash
+yarn start
+```
+
+🌐 Access the App
 Once the server starts, open your browser and navigate to:
 
+```bash
 http://localhost:3000
+```
